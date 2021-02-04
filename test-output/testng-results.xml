@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="90407" started-at="2021-01-23T17:01:44Z" finished-at="2021-01-23T17:03:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="90407" started-at="2021-01-23T17:01:44Z" finished-at="2021-01-23T17:03:14Z">
+      <class name="testscripts.NewCustomerPage_Test">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:testscripts.NewCustomerPage_Test@77caeb3e]" name="Setup" is-config="true" duration-ms="47117" started-at="2021-01-23T22:31:44Z" finished-at="2021-01-23T22:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="VerifyNewCustomerEntryPageTitle()[pri:1, instance:testscripts.NewCustomerPage_Test@77caeb3e]" name="VerifyNewCustomerEntryPageTitle" duration-ms="61" started-at="2021-01-23T22:32:31Z" finished-at="2021-01-23T22:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNewCustomerEntryPageTitle -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testscripts.NewCustomerPage_Test@77caeb3e]" name="TearDown" is-config="true" duration-ms="1399" started-at="2021-01-23T22:32:31Z" finished-at="2021-01-23T22:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:testscripts.NewCustomerPage_Test@77caeb3e]" name="Setup" is-config="true" duration-ms="28325" started-at="2021-01-23T22:32:33Z" finished-at="2021-01-23T22:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="FAIL" signature="addNewCustomer_Details()[pri:2, instance:testscripts.NewCustomerPage_Test@77caeb3e]" name="addNewCustomer_Details" duration-ms="11747" started-at="2021-01-23T22:33:01Z" finished-at="2021-01-23T22:33:13Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at testscripts.NewCustomerPage_Test.addNewCustomer_Details(NewCustomerPage_Test.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer_Details -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testscripts.NewCustomerPage_Test@77caeb3e]" name="TearDown" is-config="true" duration-ms="1266" started-at="2021-01-23T22:33:13Z" finished-at="2021-01-23T22:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testscripts.NewCustomerPage_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
